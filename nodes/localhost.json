@@ -1,8 +1,6 @@
 {
-  "ntp": {
-    "servers": ["ntp.nict.jp", "ntp.jst.mfeed.ad.jp"]
-  },
   "run_list": [
-    "recipe[ntp]"
+    "recipe[app-rails-server::default]",
+    "recipe[db-mysql-server::default]"
   ]
 }
