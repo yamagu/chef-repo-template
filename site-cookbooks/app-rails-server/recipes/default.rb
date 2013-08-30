@@ -9,7 +9,7 @@
 
 include_recipe "linux-server"
 
-node.set["rbenv"]["root_path"] = "/usr/local"
+node.set["rbenv"]["root_path"] = "/usr/local/rbenv"
 
 node.set['rbenv']['rubies']    = ['1.9.3-p448']
 node.set['rbenv']['gems'] = {
